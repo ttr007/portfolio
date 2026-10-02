@@ -1,0 +1,35 @@
+.navbar {
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .navbar__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.25rem var(--gutter);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar__logo {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+  }
+  
+  .navbar__links {
+    display: flex;
+    gap: 2rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .navbar__cta {
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  
+  @media (max-width: 700px) {
+    .navbar__links { display: none; } /* we'll add a mobile menu later */
+  }

@@ -1,0 +1,39 @@
+.projects {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 4rem var(--gutter) 6rem;
+  }
+  
+  .projects__header {
+    margin-bottom: 2.5rem;
+  }
+  
+  .projects__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 1rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  .projects__eyebrow::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+  }
+  
+  .projects__title {
+    margin: 0;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 700;
+  }
+  
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }

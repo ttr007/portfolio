@@ -1,0 +1,26 @@
+:root {
+    --bg: #faf9f7;
+    --text: #111111;
+    --muted: #6f6c68;
+    --accent: #c2603f;
+    --border: #ebe9e5;
+  
+    --font-sans: 'Inter', system-ui, sans-serif;
+    --font-serif: 'Newsreader', Georgia, serif;
+  
+    --max-width: 1200px;
+    --gutter: clamp(1.25rem, 4vw, 3rem);
+  }
+  
+  *, *::before, *::after { box-sizing: border-box; }
+  
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img { display: block; max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
