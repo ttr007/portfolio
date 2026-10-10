@@ -1,7 +1,7 @@
 .hero {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 3rem var(--gutter) 5rem;
+    padding: 3rem var(--gutter) 2rem;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
     gap: 4rem;
@@ -83,4 +83,12 @@
       gap: 2.5rem;
     }
     .hero__image { order: -1; aspect-ratio: 16 / 10; }
+  }
+
+  .hero__meta {
+    margin: 1.5rem 0 0;
+    max-width: 34rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.03em;
+    color: var(--muted);
   }

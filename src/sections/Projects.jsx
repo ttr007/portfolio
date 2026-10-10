@@ -7,7 +7,7 @@ export default function Projects() {
     <section className="projects" id="projects">
       <div className="projects__header">
         <p className="projects__eyebrow">Selected Work</p>
-        <h2 className="projects__title">Case Studies</h2>
+        <h2 className="projects__title">Projects</h2>
       </div>
 
       <div className="projects__grid">

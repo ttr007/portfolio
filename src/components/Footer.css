@@ -1,0 +1,19 @@
+.footer {
+    border-top: 1px solid var(--border);
+  }
+  
+  .footer__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.5rem var(--gutter);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
