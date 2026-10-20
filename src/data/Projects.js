@@ -17,7 +17,7 @@ const projects = [
       description:
         'Led front-end development of an accessible learning platform for older, non-technical workers, built with a Pierce County sponsor from user interviews and a Figma prototype into a React app.',
       tech: ['React', 'Figma', 'Accessibility', 'User Research'],
-      image: null,
+      image: 'projects/capstone.png',
       demo: 'https://ttr007.github.io/capstone-/',
       repo: 'https://github.com/ttr007/capstone-',
     },
@@ -26,9 +26,9 @@ const projects = [
       title: 'National Grocery Database',
       category: 'Databases & Data Modeling',
       description:
-        'Designed a MongoDB document store for a national grocery dataset, importing 6M+ rows from seven CSV files and benchmarking indexes to balance query speed against storage and write cost.',
+        'Designed a MongoDB database for a 6M+ row grocery dataset, then tuned indexes and aggregation pipelines using estimated query frequencies, cutting a top-5 discounts query from 340 ms to 4 ms.',
       tech: ['MongoDB', 'NoSQL', 'ERDs', 'Indexing'],
-      image: null,
+      image: 'projects/grocery.png',
       demo: null,
       repo: 'https://github.com/ttr007/grocecy-mongodb',
     }
