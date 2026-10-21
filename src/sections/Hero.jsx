@@ -25,8 +25,8 @@ export default function Hero() {
 
       <img
         className="hero__image"
-        src={`${base}hero.jpg`}
-        alt="Concrete architectural structure at dusk"
+        src={`${base}hero.png`}
+        alt="Graduation photo on bleachers at Husky Stadium"
       />
     </section>
   )
