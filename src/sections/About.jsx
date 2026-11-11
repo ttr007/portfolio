@@ -39,9 +39,9 @@ export default function About() {
         </p>
 
         <p>
-            I'm looking for a data engineer or data analyst role where I can
-            keep learning from a team and work on pipelines, SQL, and the
-            people who depend on them.
+            I'm looking for a data engineering, data analyst, or software
+            development role where I can keep learning from a team and build
+            things people depend on.
         </p>
       </div>
     </section>

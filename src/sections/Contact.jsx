@@ -5,7 +5,7 @@ const base = import.meta.env.BASE_URL
 const EMAIL = 'tyler.t.tr03@gmail.com'
 
 const links = [
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/tyler-tran-ttr/', text: 'https://www.linkedin.com/in/tyler-tran-ttr/' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/tyler-tran-ttr/', text: 'linkedin.com/in/tyler-tran-ttr/' },
   { label: 'GitHub', href: 'https://github.com/ttr007', text: 'github.com/ttr007' },
   { label: 'Resume', href: `${base}resume.pdf`, text: 'Download PDF' },
 ]
@@ -17,9 +17,9 @@ export default function Contact() {
         <p className="contact__eyebrow">Contact</p>
         <h2 className="contact__title">Let&rsquo;s talk</h2>
         <p className="contact__intro">
-          I&rsquo;m looking for a data engineer or data analyst role. If you
-          have an opening, a question about a project, or just want to say
-          hi, my inbox is open.
+          I&rsquo;m looking for a data engineering, data analyst, or software
+          development role. If you have an opening, a question about a project, or
+          just want to say hi, my inbox is open.
         </p>
       </div>
 

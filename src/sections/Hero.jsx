@@ -6,13 +6,13 @@ export default function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero__text">
-        <p className="hero__eyebrow">Data Engineering &amp; Analytics</p>
+        <p className="hero__eyebrow">Data &amp; Software Engineering</p>
         <h1 className="hero__name">Tyler Tran</h1>
-        <p className="hero__tagline">Data Science &amp; Pipelines</p>
+        <p className="hero__tagline">Pipelines &amp; Products</p>
         <p className="hero__bio">
-          I build the pipelines and analyses behind data decisions, and I
-          explain them in plain language. Looking for my first data
-          engineering or analyst role.
+          I build data pipelines and web apps, and I explain them in plain
+          language. Looking for my first data engineering, analyst, or software
+          development role.
         </p>
         <div className="hero__actions">
           <a href="#projects" className="btn">View Projects</a>
